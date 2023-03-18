@@ -1,0 +1,304 @@
+body {
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header.fixed {
+  height: auto;
+  position: fixed;
+  background-color: #31344e;
+}
+
+.header.fixed .header__inner {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 0;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  border-bottom: 1px solid #515369;
+}
+
+.header-phone {
+  margin-top: 60px;
+}
+
+.header-phone-number {
+  margin-left: 10px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #606060;
+}
+
+.restangle-1 {
+  width: 25px;
+  height: 2px;
+  background: #887569;
+}
+
+.restangle-2 {
+  width: 19px;
+  height: 2px;
+  background: #887569;
+}
+
+.restangle-3 {
+  width: 25px;
+  height: 2px;
+  background: #887569;
+}
+
+.nav {
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 30px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.vector {
+  margin-top: 50px;
+}
+
+.img-vectors {
+  margin-left: 25px;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity 0.1s linear;
+}
+
+.restangles div {
+  margin: 5px 0;
+}
+
+.nav__link {
+  margin-left: 25px;
+  color: #887569;
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity 0.1s linear;
+}
+
+.nav__link:first-child {
+  margin-left: 0;
+}
+
+.nav__link:hover {
+  opacity: 1;
+}
+
+.nav-col {
+  margin-left: 15px;
+}
+
+.icons {
+  margin-left: 110px;
+}
+
+.social {
+  display: inline;
+  margin-left: 20px;
+}
+
+select {
+  margin-left: 30px;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  color: #787878;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 240px 0 0 0;
+}
+
+.col-form {
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid #887569;
+    width: 340px;
+    padding-bottom: 5px;
+}
+
+.intro-search {
+    border: 0;
+    width: 340px;
+    height: 24px;
+    outline: none;
+    margin-left: 15px;
+}
+
+.result-request {
+    padding: 25px 0;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 44px;    
+    color: #373737;
+}
+
+.name-price-book {
+    position: relative;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#svg-2{
+    display: block;
+    width: 26px;
+    height: 16px;
+}
+    
+#svg_2{
+    fill:transparent; 
+    stroke: #675B56;
+    stroke-width: 15px;
+    cursor: pointer;
+    transition:fill .3s;
+}
+  
+#svg_2.filled{
+    fill:#f00;
+}
+  
+.npb-basket {
+    width: 26px;
+    height: 26px;
+    margin: 5px 0 0 221px
+}
+
+.img-book-2 {
+    margin: 31px 30px 0;
+}
+
+.circle-heart-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-left: 220px;
+    margin-top: 14px;
+    width: 40px; 
+    height: 40px;
+    background: #F3E4DE;
+}
+
+.name-price-book-2 {
+    position: relative;
+    width: 279px;
+    height: 420px;
+    background: #FAF8F6;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.canteiner {
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+
+.name-author-book {
+    color: #606060; 
+    font-weight: 300; 
+    font-size: 16px; 
+    margin: 270px 17px 0;
+}
+
+.name-book {
+    margin: 10px 17px 0;
+}
+
+.price-book {
+    font-size: 20px; 
+    margin: -24px 17px 0;
+}
+
+footer {
+    height: 145px;
+    background: #F5F5F5;
+    display: flex;
+    margin-top: 60px;
+}
+
+.footer-information {
+    margin-top: -47px;
+    margin-left: 140px;
+}
+
+.footer-content {
+    color: #4F4F4F;
+    margin-left: 30px;
+    opacity: .75;
+    transition: opacity .1s linear;
+}
+
+.footer-content:hover {
+    opacity: 1;
+}
+
+.footer-number-phone {
+    opacity: .75;
+    color: #606060;
+    margin-left: 13px;
+}
+
+a {
+    text-decoration: none;
+}
